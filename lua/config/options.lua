@@ -13,6 +13,11 @@ vim.g.maplocalleader = "\\"
 vim.opt.title = true
 vim.opt.titlestring = [[%t – %{fnamemodify(getcwd(), ':t')}]]
 
+vim.uv.os_setenv("JAVA_HOME", "/usr/lib/jvm/java-24-openjdk")
+
+-- clipboard
+vim.opt.clipboard = "unnamedplus"
+
 -- from vimrc
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
