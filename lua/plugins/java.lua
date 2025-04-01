@@ -15,14 +15,14 @@ return {
 					},
 					format = {
 						enabled = true,
-						settings = {
-							url = vim.fn.stdpath("config") .. "/lang_servers/eclipse-java-google-style.xml",
-							profile = "GoogleStyle",
-						},
+						-- settings = {
+						--   url = vim.fn.stdpath("config") .. "/lang_servers/eclipse-java-google-style.xml",
+						--   profile = "GoogleStyle",
+						-- },
 					},
-					-- settings = {
-					--   url = vim.fn.expand("config") .. "/lang_servers/jdt-formatter.prefs",
-					-- },
+					settings = {
+						url = vim.fn.expand("config") .. "/lang_servers/jdt-formatter.prefs",
+					},
 					inlayHints = {
 						parameterNames = {
 							enabled = "all",
