@@ -13,7 +13,7 @@ vim.g.maplocalleader = "\\"
 vim.opt.title = true
 vim.opt.titlestring = [[%t – %{fnamemodify(getcwd(), ':t')}]]
 
-vim.uv.os_setenv("JAVA_HOME", "/usr/lib/jvm/java-24-openjdk")
+vim.uv.os_setenv("JAVA_HOME", "/usr/lib/jvm/java-21-openjdk")
 
 -- clipboard
 vim.opt.clipboard = "unnamedplus"
