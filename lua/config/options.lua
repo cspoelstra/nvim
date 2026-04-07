@@ -28,4 +28,4 @@ vim.opt.softtabstop = 4
 vim.opt.relativenumber = false
 
 -- lsp
--- vim.lsp.enable("ty")
+vim.lsp.enable("ty")
