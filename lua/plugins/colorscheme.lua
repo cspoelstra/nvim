@@ -36,11 +36,12 @@ return {
 		"LazyVim/LazyVim",
 		opts = {
 			--colorscheme = "catppuccin-latte",
+			colorscheme = "moonfly", -- true black
 			--colorscheme = "catppuccin-mocha", -- true black
+			-- Meh
 			--colorscheme = "tokyonight-night",
 			--colorscheme = "jellybeans-nvim",
 			--colorscheme = "dracula",
-			colorscheme = "moonfly", -- true black
 			-- still need to check out: https://github.com/ray-x/starry.nvim (deep_black option)
 		},
 	},
